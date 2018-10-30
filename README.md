@@ -9,8 +9,8 @@ See [the notebook](chars74k-json-dump.ipynb) for more details.
 
 You can download the JSON-converted files directly. The JSON object
 maps each letter in the dataset (0-9, a-z, A-Z) to a list of letterforms (55 for
-each letter), which in turn are lists of [x, y] coordinates for
-each point in the stroke.
+each letter), which in turn are lists of strokes, which are lists of [x, y]
+coordinates for each point in the stroke.
 
 * [Regular](https://github.com/aparrish/chars74k-json-dump/raw/master/char74k.json)
 * [Normalized](https://github.com/aparrish/chars74k-json-dump/raw/master/char74k-normalized.json)
